@@ -3,16 +3,17 @@ body {
     background-color: #f9fafc;
     }
 
-ul {
-    list-style-type: none;
-     }
+.vertical-menu ul {
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+         }
 
 .vertical-menu a {
     color: #000; 
     display: block; 
-    font-size: 16px;
-    margin: 3px;
-    padding: 5px; 
+    padding: 5px;
+    text-align: left;
     text-decoration: none; 
 }
 
@@ -42,14 +43,18 @@ button {
         position: fixed;
         left: 0;
         bottom: 0;
-        font-size: inherit;
         background-color:rgba(247, 193, 162, 0.7);
         color: #000;
         width: 100%;
      }
-     
 .footer-menu a{
     display: inline;
+    flex-wrap: flex;
     text-decoration: none;
     color: #69696a;
+}
+.footer-menu ul{
+    display: flex;
+    flex-wrap: flex;
+    list-style-type: none;
 }
